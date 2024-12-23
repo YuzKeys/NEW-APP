@@ -13,7 +13,7 @@ btnLeft.addEventListener('click', function () {
     imgTurningCookie.src = 'images/Chuncky Chocolat CookieDetoure.png'
     infoContainer.style.backgroundColor = "white"
     cookyName.innerHTML = "Chuncky Chocolat"
-    imageContainer.style.backgroundImage = "url('https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnprbTQwN2Zud2dpNWlxaGh5MTlrNzg4bjQ1dXk0cWR6c2xqZzU1aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oEdv1GbekAakxXO8g/giphy.webp')"
+    // imageContainer.style.backgroundImage = "url('https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnprbTQwN2Zud2dpNWlxaGh5MTlrNzg4bjQ1dXk0cWR6c2xqZzU1aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oEdv1GbekAakxXO8g/giphy.webp')"
 
     contentList.innerHTML = ''
     const l1 = document.createElement('li')
@@ -35,7 +35,7 @@ btnRight.addEventListener('click', function () {
     imgTurningCookie.src = 'images/Caramel Naughty.png'
     infoContainer.style.backgroundColor = "#AECDFF"
     cookyName.innerHTML = "Crunchy Caramel"
-    imageContainer.style.backgroundImage = "url('https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYW9kaTFjZHhzZTJvMXFiODR4YW9kYmdsNGxha2UweGk3Z21scnk1NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xUA7bdb438bTcgY0h2/giphy.webp')"
+    // imageContainer.style.backgroundImage = "url('https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYW9kaTFjZHhzZTJvMXFiODR4YW9kYmdsNGxha2UweGk3Z21scnk1NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xUA7bdb438bTcgY0h2/giphy.webp')"
 
     contentList.innerHTML = ''
     const l1 = document.createElement('li')
