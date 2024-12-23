@@ -172,6 +172,9 @@ header {
 }
 
 .noSelect {
+    font-family: 'poppins', sans-serif;
+    letter-spacing: 5px;
+    font-size: 18px;
     -webkit-tap-highlight-color: transparent;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -216,7 +219,7 @@ header {
 @media screen and (max-width:900px) {
     #navMenuBtn {
         position: fixed;
-        right: 2rem;
+        right: 1rem;
         font-size: 26px;
         display: block;
     }
