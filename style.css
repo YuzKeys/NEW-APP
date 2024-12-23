@@ -51,7 +51,7 @@ header {
     list-style: none;
     text-decoration: none;
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 #navMenuBtn {
@@ -72,10 +72,10 @@ header {
     margin-top: .5rem;
     color: #272727;
     text-align: center;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 28px;
-    font-family: 'bebas neue', sans-serif;
-    letter-spacing: .5rem;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: .3rem;
 }
 
 #imageContainer {
@@ -86,7 +86,7 @@ header {
     background-color: rgb(0, 0, 0);
     gap: 1rem;
     padding: 2rem 0;
-    background-image: url('https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnprbTQwN2Zud2dpNWlxaGh5MTlrNzg4bjQ1dXk0cWR6c2xqZzU1aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oEdv1GbekAakxXO8g/giphy.webp');
+    background-image: url('https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExaHB0MGhjdmM4aWxnbHBmNGtxbzFhaWMzdWg1OTU4cnB2bnZqdHVvNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26n6G8lRMOrYC6rFS/giphy.webp');
     background-position: center;
 
 }
@@ -100,11 +100,11 @@ header {
     border-radius: 1px;
     padding: 1rem;
     background-color: white;
-    background: linear-gradient(to bottom, #ffffff, #86a8e7, #91eae4);
+    background: linear-gradient(to bottom, #ffffff, #d6d6d6, #3a3a3a);
     gap: 10px;
-    font-weight: 300;
+    font-weight: 400;
     color: #272727;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     margin-top: .8rem;
     font-family: 'poppins';
 }
@@ -174,7 +174,7 @@ header {
 
 .noSelect {
     font-family: 'poppins', sans-serif;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
     font-size: 18px;
     -webkit-tap-highlight-color: transparent;
     -webkit-touch-callout: none;
