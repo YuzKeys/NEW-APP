@@ -5,6 +5,9 @@ const infoContainer = document.getElementById('infoContainer')
 const imageContainer = document.getElementById('imageContainer')
 const cookyName = document.getElementById('cookyName')
 const contentList = document.getElementById('contentList')
+const navMenuBtn = document.getElementById('navMenuBtn')
+const navList = document.querySelector('.navList')
+const navLinks = document.getElementById('navLinks')
 
 btnLeft.addEventListener('click', function () {
     imgTurningCookie.src = 'images/Chuncky Chocolat CookieDetoure.png'
@@ -48,5 +51,12 @@ btnRight.addEventListener('click', function () {
     const l6 = document.createElement('li')
     l6.textContent = 'Caramel'
     contentList.append(l1, l2, l3, l4, l5, l6)
+
+})
+
+navMenuBtn.addEventListener('click', function () {
+    navList.classList.toggle('showMenu')
+
+
 
 })

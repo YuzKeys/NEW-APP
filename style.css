@@ -22,7 +22,7 @@ header {
     align-items: center;
 }
 
-nav {
+#navLinks {
     padding: 1ch;
 }
 
@@ -31,25 +31,33 @@ nav {
     font-weight: 400;
     font-size: 38px;
     font-family: 'bebas neue', sans-serif;
+    z-index: 1000;
 }
 
-nav ul {
+.navList {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 1rem;
+
 }
 
-nav ul li {
+#navLinks .navList li {
     list-style: none;
 }
 
-nav ul li a {
-    color: #272727;
+#navLinks .navList li a {
+    color: #fff;
     list-style: none;
     text-decoration: none;
     font-size: 1rem;
     font-weight: 500;
+}
+
+#navMenuBtn {
+    font-size: 26px;
+    display: none;
+    z-index: 1000;
 }
 
 #shop {
@@ -205,4 +213,42 @@ nav ul li a {
     }
 }
 
-@media screen and (max-width:900px) {}
+@media screen and (max-width:900px) {
+    #navMenuBtn {
+        position: fixed;
+        right: 2rem;
+        font-size: 26px;
+        display: block;
+    }
+
+    #navLinks {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: 0;
+        padding: 0;
+        z-index: 100;
+    }
+
+
+    .navList {
+        position: fixed;
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.89);
+        padding: 3rem;
+        transition: 1s ease-in-out;
+
+
+    }
+
+    .showMenu {
+        display: flex;
+        left: 2px;
+        transition: 1s ease-in-out;
+    }
+}
