@@ -11,6 +11,7 @@ body {
     background-color: black;
     text-decoration: none;
     font-weight: 400;
+    user-select: none;
 }
 
 header {
