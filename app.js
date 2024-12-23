@@ -44,9 +44,9 @@ btnRight.addEventListener('click', function () {
     const l4 = document.createElement('li')
     l4.textContent = 'Beurre'
     const l5 = document.createElement('li')
-    l5.textContent = 'Caramel Sauce'
+    l5.textContent = 'Noix'
     const l6 = document.createElement('li')
-    l6.textContent = 'Nutts Topping'
+    l6.textContent = 'Caramel'
     contentList.append(l1, l2, l3, l4, l5, l6)
 
 })
