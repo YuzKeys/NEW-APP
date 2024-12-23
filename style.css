@@ -114,7 +114,18 @@ nav ul li a {
     animation: breathe 1.7s infinite;
     color: #C2935B;
     margin: 1rem 0;
+    user-select: none;
 
+}
+
+#btnLeft:focus {
+    outline: none;
+    user-select: none;
+}
+
+#btnRight:focus {
+    outline: none;
+    user-select: none;
 }
 
 
